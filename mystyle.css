@@ -25,14 +25,16 @@ h1 {
 
 .text-potato {
     padding: 20px;
-    max-width: 500px;
-    margin: auto;
+    margin-left: 400px;
+    margin-right: 400px;
 }
 
 li {
     list-style: none;
+
 }
 
 footer {
     text-align: right;
 }
+
