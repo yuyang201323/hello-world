@@ -1,6 +1,6 @@
-* {
+/** {
     border: 1px solid black
-}
+}*/
 
 body {
     text-align: center;
@@ -31,4 +31,8 @@ h1 {
 
 li {
     list-style: none;
+}
+
+footer {
+    text-align: right;
 }
