@@ -5,23 +5,41 @@
         <link rel="stylesheet" href="mystyle.css">
     </head>
     <body>
+        <script>
+            alert('Welcome to the shop!')
+            let useranswer = prompt('Are you 18+ years old? (Fill only number please)')
+            console.log('User typed:' + useranswer)
+            if(useranswer >=18){
+                document.write('Come in!');
+            } else{
+                document.write('You are too young for this!')
+            }
+        </script>
         <header>
             <h1>Russet Potatoes are the Best</h1>
             <a class="main-link" href="https://johnnybackus.github.io/hello-world/">Link to Johnny's shop</a>
         </header>
         <main>
-            <section>
+            <div>
                 <img class="image-potato" src="https://www.eatingwell.com/thmb/jagdw7_eFQLQINhV7J8T4fBmwCo=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/russet-potato-03c1979ab0e048e0b64f5b4fb92153d0.jpg" alt="russet potato">
                 <p class="text-potato">Russet potatoes are large with thick dark brown skins. When cooked, the flesh is dry, with a light, airy and oftentimes mealy texture. Their oblong shape is great for making baked potatoes and stuffed potatoes, plus their relatively mild flavor means they can easily take on the flavors of whatever they're cooked with.</p>
-            </section>
-            <section>
-                <h2>Benfits of russet potatoes:</h2>
+            </div>
+            <div class="benefits">
+                <h2>Main benfits of russet potatoes</h2>
                 <ul>
                     <li>High starch content</li>
                     <li>Crispy fry texture</li>
                     <li>Neutral flavor</li>
                 </ul>
-            </section>
+            </div>
+            <div class="benefits">
+                <h2>Other benefits of russet potatoes</h2>
+                <ul>
+                    <li>Versatility in cooking</li>
+                    <li>Good source of energy</li>
+                    <li>Low in fat</li>
+                </ul>
+            </div>
         </main>
         <footer>
             <p>By Yuyang Wang 102d61</p>
